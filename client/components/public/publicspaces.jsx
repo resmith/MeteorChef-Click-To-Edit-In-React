@@ -7,6 +7,7 @@ PublicSpacesTable = React.createClass({
             <tr>
               <th></th>
               <th>Name</th>
+              <th>Owner</th>
               <th>Description</th>
             </tr>
           </thead>

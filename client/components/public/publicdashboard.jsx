@@ -13,7 +13,11 @@ PublicDashboard = React.createClass({
       return <Loading />;
     } else {
       return (
-        <PublicSpacesTable spaces={this.data.spaces}/>
+        <div>
+          <h1>Welcome to GatheryMy...</h1>
+          <h2>Gather, Connect, Share your memories, stories and more</h2>
+          <PublicSpacesTable spaces={this.data.spaces}/>
+        </div>
       );
     }
   }
