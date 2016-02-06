@@ -1,7 +1,7 @@
 AppHeader = React.createClass({
   brandLink() {
     if ( !Meteor.loggingIn() && !Meteor.userId() ) {
-      return FlowRouter.path( 'login' );
+      return FlowRouter.path( 'publicindex' );
     }
 
     return FlowRouter.path( 'index' );

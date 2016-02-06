@@ -1,5 +1,13 @@
-# The Meteor Chef - Base
-A starting point for Meteor apps.
+GatherMy...
+
+
+
+By Robert Smith
+
+Based on the 
+Meteor Chefs Base for Meteor-React apps
+https://themeteorchef.com/recipes/getting-started-with-react/
+https://github.com/themeteorchef/getting-started-with-react
 
 <table>
   <tbody>
