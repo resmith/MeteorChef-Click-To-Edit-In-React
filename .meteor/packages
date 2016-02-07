@@ -32,3 +32,5 @@ react
 kadira:react-layout
 accounts-ui
 blaze
+blaze-html-templates
+accounts-google

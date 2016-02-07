@@ -3,6 +3,7 @@ AccountsUIWrapper = React.createClass({
     // Use Meteor Blaze to render login buttons
     this.view = Blaze.render(Template.loginButtons,
       React.findDOMNode(this.refs.container));
+      //ReactDom.findDOMNode(this.refs.container));
   },
   componentWillUnmount() {
     // Clean up Blaze view

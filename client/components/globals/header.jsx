@@ -26,7 +26,9 @@ AppHeader = React.createClass({
             </button>
             <a className="navbar-brand" href={this.brandLink()}>GatherMy...</a>
           </div>
+          <div className="navbar-right accountui">
            <AccountsUIWrapper />
+          </div>
         </div>
       </nav>
     );
