@@ -17,7 +17,7 @@ let SpacesSchema = new SimpleSchema({
     type: String,
     label: "The name of the space."
   },
-  "ownerId": {
+  "ownerName": {
     type: String,
     label: "Whose the owner."
   },
@@ -52,7 +52,7 @@ if (Meteor.isServer) {
 
     var spaceId = Spaces.insert({
       name: 'Private Space',
-      ownerId: 'resmith',
+      ownerName: 'resmith',
       description: 'Private Space for friends to look at',
       public: false,
       access: [
@@ -65,7 +65,7 @@ if (Meteor.isServer) {
 
     var spaceId = Spaces.insert({
       name: 'Public Space',
-      ownerId: 'resmith',
+      ownerName: 'resmith',
       description: 'Public Space for all to look at',
       public: true,
       access: [

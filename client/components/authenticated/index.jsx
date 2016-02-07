@@ -19,7 +19,7 @@ Index = React.createClass({
         <p>These are your spaces.</p>
           <SpacesTable spaces={this.data.spaces}/>
         <p style={{fontSize: '16px', color: '#aaa'}}>Currently at v3.3.0</p>
-        <p><a className="btn btn-success" href="{pathFor 'publicindex'}" role="button">View Public Spaces</a></p>
+        <p><a className="btn btn-success" href={FlowHelpers.pathFor( 'publicindex')} role="button">View Public Spaces</a></p>
       </div>
     );
   }
