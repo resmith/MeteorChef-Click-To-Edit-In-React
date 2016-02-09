@@ -24,13 +24,12 @@ AppHeader = React.createClass({
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href={this.brandLink()}>RLives.link</a>
+            <a className="navbar-brand" href={this.brandLink()}>Meteor Chef's Click to Edit Fields in React ...</a>
           </div>
           <div className="navbar-right accountui">
            <AccountsUIWrapper />
           </div>
         </div>
-              <bold>{FlowRouter.getRouteName()}</bold>
       </nav>
 
     );

@@ -1,7 +1,7 @@
 PeopleDashboard = React.createClass({
   mixins: [ ReactMeteorData ],
   getMeteorData() {
-    let subscription = Meteor.subscribe( 'publicspaces' );
+    let subscription = Meteor.subscribe( 'dashboard' );
 
     return {
       isLoading: !subscription.ready(),

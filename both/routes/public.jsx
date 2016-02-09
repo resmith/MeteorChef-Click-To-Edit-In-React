@@ -12,7 +12,7 @@ const publicRoutes = FlowRouter.group({
 publicRoutes.route( '/publicindex', {
   name: 'publicindex',
   action() {
-    ReactLayout.render( Default, { yield: <PublicDashboard /> } );
+    ReactLayout.render( Default, { yield: <Index /> } );
   }
 });
 

@@ -1,7 +1,0 @@
-Meteor.user().username
-
-{ owner: this.userId }
-
-{ owner: Meteor.user().username}
-
-={FlowHelpers.pathFor( 'viewpace', { space_id: this.props.space._id } )}>
