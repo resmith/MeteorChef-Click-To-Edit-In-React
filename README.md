@@ -6,8 +6,9 @@ By Robert Smith
 
 Based on the 
 Meteor Chefs Base for Meteor-React apps
-https://themeteorchef.com/recipes/getting-started-with-react/
-https://github.com/themeteorchef/getting-started-with-react
+<p>https://themeteorchef.com/snippets/click-to-edit-fields-in-react</p>
+<p>https://themeteorchef.com/recipes/getting-started-with-react/</p>
+<p>https://github.com/themeteorchef/getting-started-with-react</p>
 
 <table>
   <tbody>
